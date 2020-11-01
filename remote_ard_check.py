@@ -114,6 +114,8 @@ def ard_test(host, user, passwd):
 
     print(str(stdout.read() + stderr.read(), 'utf-8'))
 
+    client.close()
+
 
 
 
