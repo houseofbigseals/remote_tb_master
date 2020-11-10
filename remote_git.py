@@ -100,7 +100,8 @@ if __name__ == "__main__":
     username = 'pi'
     passwd = 'brobro'
 
-    robots = ['turtlebro12.local']
+    robots = ['turtlebro11.local', 'turtlebro12.local',
+              'turtlebro13.local', 'turtlebro14.local', 'turtlebro15.local', 'turtlebro16.local']
 
     for host in robots:
         install_to_one_tb(host, username, passwd)

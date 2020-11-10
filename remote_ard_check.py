@@ -126,7 +126,8 @@ if __name__ == "__main__":
     username = 'pi'
     passwd = 'brobro'
 
-    robots = ['10.8.0.6']
+    # robots = ['10.8.0.6']
+    robots = ['turtlebro17.local']
 
     for host in robots:
         ard_test(host, username, passwd)
